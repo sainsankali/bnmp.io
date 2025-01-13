@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <title>Animal welfare website</title>
+    <link rel="stylesheet" href="landing.css">
+    
+     <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <!-- <a href="#home"><i class="fas fa-arrow-up"></i></a> -->
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        
+        <ul class="menu">
+          <li><a href="home.html">Home</a></li>
+          
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="chatbot.html">Chatbot </a></li>
+          <li><a href="donation.html">Donation</a></li>
+        </ul>
+      </div>
+    </nav><style>.text {
+      text-align:left;
+      color: #fff;
+      text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+      animation: fadeIn 2s ease-in-out;
+  }
+
+  .text-one {
+      font-family: 'Pacifico', cursive;
+      font-size: 150px; /* Increased size */
+      margin-bottom: 15px;
+      animation: textSlideDown 2s ease-in-out forwards;
+  }
+
+  .text-two {
+      font-family: 'Pacifico', cursive;
+      font-size: 150px; /* Increased size */
+      color: #ff6f61;
+      transform: rotate(-5deg);
+      animation: bounce 2s infinite ease-in-out;
+  }
+
+  .text-three {
+      font-family: 'Pacifico', cursive;
+      font-size: 150px; /* Increased size */
+      margin-top: 15px;
+      animation: textSlideLeft 2s ease-in-out forwards;
+  }
+
+  .text-four {
+      font-family: 'Pacifico', cursive;
+      font-size: 150px; /* Increased size */
+      color: #ffd700;
+      transform: rotate(5deg);
+      animation: bounce 2s infinite ease-in-out 0.5s; /* Delay for sync */
+  }
+
+  /* Fade In Animation for overall text */
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  /* Bounce Animation for quirky text */
+  @keyframes bounce {
+      0%, 100% {
+          transform: translateY(0) rotate(-5deg);
+      }
+      50% {
+          transform: translateY(-10px) rotate(-5deg);
+      }
+  }
+
+  /* Sliding animation for text-one and text-three */
+  @keyframes textSlideDown {
+      from {
+          transform: translateY(-50px);
+          opacity: 0;
+      }
+      to {
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes textSlideLeft {
+      from {
+          transform: translateX(-50px);
+          opacity: 0;
+      }
+      to {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }</style>
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          
+          <div class="text-one">Welcome To</div>
+          <div class="text-two">Barks</div>
+          <div class="text-three">And</div>
+          <div class="text-four">Meows Paradise</div>
+          
+        </div>
+     
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Animal Welfare. All rights reserved.</p>
+      <p>Contact: <a href="mailto:info@mywebsite.com">animalwelfare91@gmail.com</a></p>
+  </footer>
+    </body>
+    <html>
